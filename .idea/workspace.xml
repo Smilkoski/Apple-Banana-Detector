@@ -21,12 +21,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="482e20e5-ba7b-47a0-a9bc-3ac9036b15f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-    </list>
+    <list default="true" id="482e20e5-ba7b-47a0-a9bc-3ac9036b15f5" name="Default Changelist" comment="&quot;second commit&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +34,12 @@
     </projectState>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1vSHwEcWSJ1Ez0kNCmGjF2SXJ4y" />
@@ -155,6 +156,14 @@
       <option name="presentableId" value="Default" />
       <updated>1626548806726</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;second commit&quot;">
+      <created>1637069107904</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1637069107904</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,24 +182,14 @@
     <ignored-roots>
       <path value="$USER_HOME$" />
     </ignored-roots>
+    <MESSAGE value="&quot;second commit&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;second commit&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="174" y="127" key="#PSD" timestamp="1632428345162">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="174" y="127" key="#PSD/0.0.1366.728@0.0.1366.728" timestamp="1632428345162" />
-    <state x="413" y="118" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1626784803151">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="413" y="118" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1626784803151" />
-    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626781978050">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1626781978050" />
-    <state x="422" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1628100624060">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="422" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1628100624060" />
     <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1630927605708">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -247,6 +246,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1632427554835" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1637069382062">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1637069382062" />
     <state x="499" y="141" key="chooseDestDirectoryDialog" timestamp="1632428019619">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

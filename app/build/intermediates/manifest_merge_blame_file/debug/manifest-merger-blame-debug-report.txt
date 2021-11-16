@@ -1,0 +1,172 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapp"
+4    android:installLocation="auto"
+5    android:versionCode="11"
+6    android:versionName="1.11" >
+7
+8    <uses-sdk
+8-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:8:5-11:63
+9        android:minSdkVersion="21"
+9-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:8:5-11:63
+10        android:targetSdkVersion="31" />
+10-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:8:5-11:63
+11
+12    <uses-feature android:name="android.hardware.camera" />
+12-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:13:5-59
+12-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:13:19-57
+13
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:15:5-66
+14-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:15:22-64
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:16:5-80
+15-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:16:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:17:5-79
+16-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:17:22-77
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:18:5-64
+17-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:18:22-62
+18
+19    <queries>
+19-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:41:5-45:15
+20        <intent>
+20-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:42:9-44:18
+21            <action android:name="android.media.action.IMAGE_CAPTURE" />
+21-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:43:13-73
+21-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:43:21-70
+22        </intent>
+23    </queries>
+24
+25    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+26    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+27-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Gradle\gradle-7.1.1\caches\transforms-3\fa26f3b8eb04a9cf31c797ed6ca7f9c5\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+27-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Gradle\gradle-7.1.1\caches\transforms-3\fa26f3b8eb04a9cf31c797ed6ca7f9c5\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:22-76
+28
+29    <application
+29-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:20:5-40:19
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.5.0] C:\Gradle\gradle-7.1.1\caches\transforms-3\a9bab1f9bec5afbfbb3a336fca4d4988\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@drawable/abd_logo"
+32-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:21:9-42
+33        android:label="@string/app_name"
+33-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:22:9-41
+34        android:testOnly="true"
+35        android:theme="@style/Theme.AppCompat" >
+35-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:23:9-47
+36        <meta-data
+36-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:25:9-27:68
+37            android:name="com.google.android.gms.version"
+37-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:26:13-58
+38            android:value="@integer/google_play_services_version" />
+38-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:27:13-66
+39
+40        <activity
+40-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:30:9-38:20
+41            android:name="com.example.myapp.MainActivity"
+41-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:31:13-41
+42            android:exported="true"
+42-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:32:13-36
+43            android:theme="@style/AppTheme" >
+43-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:33:13-44
+44            <intent-filter>
+44-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:34:13-37:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:35:17-68
+45-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:35:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:36:17-76
+47-->C:\Users\Hristijan\AndroidStudioProjects\vision-quickstart\app\src\main\AndroidManifest.xml:36:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <service
+51-->[com.google.mlkit:object-detection-custom:16.3.3] C:\Gradle\gradle-7.1.1\caches\transforms-3\b30a732ea07de5bca84c1cd34f7b5a0e\transformed\jetified-object-detection-custom-16.3.3\AndroidManifest.xml:8:9-14:19
+52            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+52-->[com.google.mlkit:object-detection-custom:16.3.3] C:\Gradle\gradle-7.1.1\caches\transforms-3\b30a732ea07de5bca84c1cd34f7b5a0e\transformed\jetified-object-detection-custom-16.3.3\AndroidManifest.xml:9:13-91
+53            android:directBootAware="true"
+53-->[com.google.mlkit:common:17.1.1] C:\Gradle\gradle-7.1.1\caches\transforms-3\5e637847f51a8c7d9ee7cb0bf87fb5b7\transformed\jetified-common-17.1.1\AndroidManifest.xml:17:13-43
+54            android:exported="false" >
+54-->[com.google.mlkit:object-detection-custom:16.3.3] C:\Gradle\gradle-7.1.1\caches\transforms-3\b30a732ea07de5bca84c1cd34f7b5a0e\transformed\jetified-object-detection-custom-16.3.3\AndroidManifest.xml:10:13-37
+55            <meta-data
+55-->[com.google.mlkit:object-detection-custom:16.3.3] C:\Gradle\gradle-7.1.1\caches\transforms-3\b30a732ea07de5bca84c1cd34f7b5a0e\transformed\jetified-object-detection-custom-16.3.3\AndroidManifest.xml:11:13-13:85
+56                android:name="com.google.firebase.components:com.google.mlkit.vision.objects.custom.internal.CustomObjectsRegistrar"
+56-->[com.google.mlkit:object-detection-custom:16.3.3] C:\Gradle\gradle-7.1.1\caches\transforms-3\b30a732ea07de5bca84c1cd34f7b5a0e\transformed\jetified-object-detection-custom-16.3.3\AndroidManifest.xml:12:17-133
+57                android:value="com.google.firebase.components.ComponentRegistrar" />
+57-->[com.google.mlkit:object-detection-custom:16.3.3] C:\Gradle\gradle-7.1.1\caches\transforms-3\b30a732ea07de5bca84c1cd34f7b5a0e\transformed\jetified-object-detection-custom-16.3.3\AndroidManifest.xml:13:17-82
+58            <meta-data
+58-->[com.google.mlkit:vision-internal-vkp:18.1.1] C:\Gradle\gradle-7.1.1\caches\transforms-3\6ff2e2dd92cde49afa34409dafc0cd0d\transformed\jetified-vision-internal-vkp-18.1.1\AndroidManifest.xml:11:13-13:85
+59                android:name="com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar"
+59-->[com.google.mlkit:vision-internal-vkp:18.1.1] C:\Gradle\gradle-7.1.1\caches\transforms-3\6ff2e2dd92cde49afa34409dafc0cd0d\transformed\jetified-vision-internal-vkp-18.1.1\AndroidManifest.xml:12:17-103
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[com.google.mlkit:vision-internal-vkp:18.1.1] C:\Gradle\gradle-7.1.1\caches\transforms-3\6ff2e2dd92cde49afa34409dafc0cd0d\transformed\jetified-vision-internal-vkp-18.1.1\AndroidManifest.xml:13:17-82
+61            <meta-data
+61-->[com.google.mlkit:vision-common:16.5.0] C:\Gradle\gradle-7.1.1\caches\transforms-3\af0b8fc699b73195c57ac507666cdfb6\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:12:13-14:85
+62                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+62-->[com.google.mlkit:vision-common:16.5.0] C:\Gradle\gradle-7.1.1\caches\transforms-3\af0b8fc699b73195c57ac507666cdfb6\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:13:17-124
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[com.google.mlkit:vision-common:16.5.0] C:\Gradle\gradle-7.1.1\caches\transforms-3\af0b8fc699b73195c57ac507666cdfb6\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:14:17-82
+64            <meta-data
+64-->[com.google.mlkit:common:17.1.1] C:\Gradle\gradle-7.1.1\caches\transforms-3\5e637847f51a8c7d9ee7cb0bf87fb5b7\transformed\jetified-common-17.1.1\AndroidManifest.xml:20:13-22:85
+65                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+65-->[com.google.mlkit:common:17.1.1] C:\Gradle\gradle-7.1.1\caches\transforms-3\5e637847f51a8c7d9ee7cb0bf87fb5b7\transformed\jetified-common-17.1.1\AndroidManifest.xml:21:17-120
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.mlkit:common:17.1.1] C:\Gradle\gradle-7.1.1\caches\transforms-3\5e637847f51a8c7d9ee7cb0bf87fb5b7\transformed\jetified-common-17.1.1\AndroidManifest.xml:22:17-82
+67        </service>
+68
+69        <provider
+69-->[com.google.mlkit:common:17.1.1] C:\Gradle\gradle-7.1.1\caches\transforms-3\5e637847f51a8c7d9ee7cb0bf87fb5b7\transformed\jetified-common-17.1.1\AndroidManifest.xml:9:9-13:38
+70            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+70-->[com.google.mlkit:common:17.1.1] C:\Gradle\gradle-7.1.1\caches\transforms-3\5e637847f51a8c7d9ee7cb0bf87fb5b7\transformed\jetified-common-17.1.1\AndroidManifest.xml:10:13-78
+71            android:authorities="com.example.myapp.mlkitinitprovider"
+71-->[com.google.mlkit:common:17.1.1] C:\Gradle\gradle-7.1.1\caches\transforms-3\5e637847f51a8c7d9ee7cb0bf87fb5b7\transformed\jetified-common-17.1.1\AndroidManifest.xml:11:13-69
+72            android:exported="false"
+72-->[com.google.mlkit:common:17.1.1] C:\Gradle\gradle-7.1.1\caches\transforms-3\5e637847f51a8c7d9ee7cb0bf87fb5b7\transformed\jetified-common-17.1.1\AndroidManifest.xml:12:13-37
+73            android:initOrder="99" />
+73-->[com.google.mlkit:common:17.1.1] C:\Gradle\gradle-7.1.1\caches\transforms-3\5e637847f51a8c7d9ee7cb0bf87fb5b7\transformed\jetified-common-17.1.1\AndroidManifest.xml:13:13-35
+74
+75        <service
+75-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Gradle\gradle-7.1.1\caches\transforms-3\fa26f3b8eb04a9cf31c797ed6ca7f9c5\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+76            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+76-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Gradle\gradle-7.1.1\caches\transforms-3\fa26f3b8eb04a9cf31c797ed6ca7f9c5\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+77            android:exported="false" >
+77-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Gradle\gradle-7.1.1\caches\transforms-3\fa26f3b8eb04a9cf31c797ed6ca7f9c5\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+78            <meta-data
+78-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Gradle\gradle-7.1.1\caches\transforms-3\fa26f3b8eb04a9cf31c797ed6ca7f9c5\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+79                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+79-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Gradle\gradle-7.1.1\caches\transforms-3\fa26f3b8eb04a9cf31c797ed6ca7f9c5\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+80                android:value="cct" />
+80-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Gradle\gradle-7.1.1\caches\transforms-3\fa26f3b8eb04a9cf31c797ed6ca7f9c5\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+81        </service>
+82        <service
+82-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Gradle\gradle-7.1.1\caches\transforms-3\74fe767114ad87cde3a0530384a6b24c\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+83            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+83-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Gradle\gradle-7.1.1\caches\transforms-3\74fe767114ad87cde3a0530384a6b24c\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+84            android:exported="false"
+84-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Gradle\gradle-7.1.1\caches\transforms-3\74fe767114ad87cde3a0530384a6b24c\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+85            android:permission="android.permission.BIND_JOB_SERVICE" >
+85-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Gradle\gradle-7.1.1\caches\transforms-3\74fe767114ad87cde3a0530384a6b24c\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+86        </service>
+87
+88        <receiver
+88-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Gradle\gradle-7.1.1\caches\transforms-3\74fe767114ad87cde3a0530384a6b24c\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+89            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+89-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Gradle\gradle-7.1.1\caches\transforms-3\74fe767114ad87cde3a0530384a6b24c\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+90            android:exported="false" />
+90-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Gradle\gradle-7.1.1\caches\transforms-3\74fe767114ad87cde3a0530384a6b24c\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+91
+92        <activity
+92-->[com.google.android.gms:play-services-base:17.6.0] C:\Gradle\gradle-7.1.1\caches\transforms-3\6092983cc7b71062104a20fa4179d079\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+93            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+93-->[com.google.android.gms:play-services-base:17.6.0] C:\Gradle\gradle-7.1.1\caches\transforms-3\6092983cc7b71062104a20fa4179d079\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+94            android:exported="false"
+94-->[com.google.android.gms:play-services-base:17.6.0] C:\Gradle\gradle-7.1.1\caches\transforms-3\6092983cc7b71062104a20fa4179d079\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+95            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+95-->[com.google.android.gms:play-services-base:17.6.0] C:\Gradle\gradle-7.1.1\caches\transforms-3\6092983cc7b71062104a20fa4179d079\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+96    </application>
+97
+98</manifest>

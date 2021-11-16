@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Hristijan\\AndroidStudioProjects\\vision-quickstart\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_abd_logo.jpg.flat",
+        "source": "C:\\Users\\Hristijan\\AndroidStudioProjects\\vision-quickstart\\app\\src\\main\\res\\drawable-hdpi\\abd_logo.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hristijan\\AndroidStudioProjects\\vision-quickstart\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_vision_cameraxsource_demo.xml.flat",
+        "source": "C:\\Users\\Hristijan\\AndroidStudioProjects\\vision-quickstart\\app\\src\\main\\res\\layout\\activity_vision_cameraxsource_demo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hristijan\\AndroidStudioProjects\\vision-quickstart\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_vision_cameraxsource_demo.xml.flat",
+        "source": "C:\\Users\\Hristijan\\AndroidStudioProjects\\vision-quickstart\\app\\src\\main\\res\\layout-land\\activity_vision_cameraxsource_demo.xml"
+    }
+]
